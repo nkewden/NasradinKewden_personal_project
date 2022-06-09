@@ -30,10 +30,10 @@ function displayResults (results) {
         let gifUrl = element.imges.fixed_height.url;
         let title = element.title;
 
-        gifArea.innerHTML += '
+        gifArea.innerHTML += `
         <div>class="gif ${index + rating}">
          <img src = "${gifUrl}" alt = "${title}">
         </div>
-        ';
+        `;
     });
 }
