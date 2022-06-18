@@ -3,7 +3,7 @@ const form = document.querySelector("#form");
 const input = document.querySelector("#input");
 const showGipphy = document.querySelector("#show-giphy");
 
-const apiKey = "nOjzgnRK5wSxGHruvjd3HVSux7Zxk46H";
+const apiKey = "";
 
 
 const api_Key = null;
